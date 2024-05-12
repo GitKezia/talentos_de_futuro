@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+   *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body{
+        height: 100vh;  
+        background-color: #dee4e2;
+        color: #171717;
+        box-sizing: content-box;
+       
+    }
+
+    img{
+        border-radius: 15px;
+    }
+
+    .titulo-destaque{
+        color: #5f90c5;
+        
+    }
+
+    .container{
+        margin: 100px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 16px;
+        font-size: 24px;
+    }
+
+    .container__conteudo{
+        width: 615px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .container__conteudo__titulo{
+        font-size: 36px;
+        font-family:  "Briem Hand", cursive;
+    }
+
+    .container__conteudo__texto{
+        font-size: 22px;
+        color: #171717;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .container__links{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container__links__link{
+        background-color: #e3a28b;
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 20px;
+        font-weight: 600px;
+        font-family: "Briem Hand", cursive;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #171717;
+        
+    }
+
+
+
