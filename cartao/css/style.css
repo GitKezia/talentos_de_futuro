@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-cartao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cartao {
+    background-image: url("/img/background.webp");
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 290px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.keziaVictoria-foto-perfil {
+    border-radius: 50%;
+    width: 200px;
+    height: 155px;
+    object-fit: cover;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 2px;
+}
+
+.titulo {
+    color: #666;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.descricao {
+    background-color: #e995b5;
+    color: #686363;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 15px 0;
+    padding: 20px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.habilidades img {
+    width: 30px;
+    height: 30px;
+}
