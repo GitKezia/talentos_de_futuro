@@ -41,13 +41,13 @@ h2 {
     margin: 10px 2px;
 }
 
-.titulo {
+.titulo__kezia {
     color: #666;
     font-size: 18px;
     margin: 5px 0;
 }
 
-.descricao {
+.descricao__kezia {
     background-color: #e995b5;
     color: #686363;
     border-radius: 10px;
